@@ -11,8 +11,8 @@ process, from discussion and collaboration.
 
 - 👀 I’m interested in ***Full Stack Development.***
 - 🌱 I’m currently learning ***5 languages primarily. They are: HTML, CSS, Vanilla JavaScirpt, PHP and Python.***
-<!--- - 💞️ I’m looking to collaborate on ... --->
 - 📫 You can reach me using my ***[facebook](https://www.facebook.com/shuvra.gupta.16/)***. Message me if you want to.
+<!--- - 💞️ I’m looking to collaborate on ... --->
 
 <!---
 shu-vro/shu-vro is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
