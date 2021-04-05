@@ -1,7 +1,7 @@
 # 👋 Hi, I’m ***@shu-vro***
 
 I am a Web Developer, and I'm very
-passionate and dedicated to my work With 2
+passionate and dedicated to my work with 2
 years experience as a Web
 Developer, I have acquired the skills and
 knowledge necessary to make your project a
