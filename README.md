@@ -10,7 +10,7 @@ process, from discussion and collaboration.
 
 
 - 👀 I’m interested in ***Full Stack Development.***
-- 🌱 I’m currently learning ***5 languages. They are: HTML, CSS, Vanilla JavaScirpt, PHP and Python.***
+- 🌱 I’m currently learning ***5 languages. They are: HTML, CSS, Vanilla JavaScirpt, React Js, Node Js, PHP and Python.***
 - 📫 You can reach me using my ***[facebook](https://www.facebook.com/shuvra.gupta.16/)***. Message me if you want to.
 <!--- - 💞️ I’m looking to collaborate on ... --->
 
