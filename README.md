@@ -6,6 +6,8 @@
     enthusiasm. 💻🚀🇧🇩
 </h3>
 
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1E90FF&random=false&width=435&lines=%40shu-vro+%3D%3D+creative;%40shu-vro+%3D%3D+problem+solver;%40shu-vro+%3D%3D+hungry+learner;%40shu-vro+%3D%3D+never+gives+up;%40shu-vro+%3D%3D+thinks+logically;%40shu-vro+%3D%3D+loves+to+code)
+
 <p align="left">
     <a href="https://github.com/ryo-ma/github-profile-trophy"
         ><img
