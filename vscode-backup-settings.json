@@ -1,0 +1,191 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editor.background": "#0B1015",
+        "editorSuggestWidget.background": "#222222",
+        "editorSuggestWidget.selectedBackground": "#14344b",
+        "editor.lineHighlightBackground": "#000000",
+        "editor.lineHighlightBorder": "#242431",
+        "editorHoverWidget.background": "#222222",
+        "tab.activeBorder": "#ffffff",
+        "tab.activeForeground": "#ffffff",
+        "activityBar.background": "#0b1015",
+        "activityBar.foreground": "#97a7c8",
+        "sideBar.background": "#080b0f",
+        "sideBarSectionHeader.background": "#007acc",
+        "sideBarSectionHeader.foreground": "#ffffff",
+        "statusBar.background": "#111820",
+        "titleBar.activeBackground": "#111820",
+        "tab.inactiveBackground": "#0b1015",
+        "activityBarBadge.background": "#007acc"
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "class": {
+                "bold": true,
+                "underline": true
+            },
+            "function": {
+                "italic": true
+            },
+            "method": {
+                "italic": true
+            }
+        }
+    },
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "prettier.tabWidth": 4,
+    "editor.minimap.maxColumn": 60,
+    "editor.formatOnSave": true,
+    "editor.minimap.showSlider": "always",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.insertFinalNewline": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.mergeEditor": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "explorer.confirmDelete": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.saveFileBeforeRun": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "thunder-client.codeSnippetLanguage": "python-requests",
+    "scm.inputFontSize": 13.5,
+    "editor.fontSize": 12,
+    "editor.linkedEditing": true,
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "vscode-edge-devtools.mirrorEdits": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.guides.bracketPairs": "active",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": ["-d", "Ubuntu"]
+        }
+    },
+    "terminal.integrated.shell.windows": "PowerShell",
+    "terminal.integrated.shell.linux": "Ubuntu (WSL)",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh (2)",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "redhat.telemetry.enabled": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.shellIntegration.enabled": true,
+    "workbench.sideBar.location": "right",
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSameLine": true,
+    "keyboard.layout": "00020409",
+    "githubPullRequests.fileListLayout": "flat",
+    "path-intellisense.showHiddenFiles": true,
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+    "livePreview.openPreviewTarget": "External Browser",
+    "window.commandCenter": true,
+    "gitlens.defaultGravatarsStyle": "mp",
+    "editor.suggest.matchOnWordStartOnly": false,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "files.associations": {
+        "*.css": "tailwindcss",
+        "*.rules": "plaintext"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "cSpell.userWords": ["nums"],
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "gitlens.graph.minimap.additionalTypes": [
+        "localBranches",
+        "stashes",
+        "remoteBranches",
+        "tags"
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "gitlens.telemetry.enabled": false,
+    "code-runner.enableAppInsights": false,
+    "telemetry.telemetryLevel": "off",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "git.ignoreRebaseWarning": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "workbench.tree.enableStickyScroll": true,
+    "multiDiffEditor.experimental.enabled": true,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.jpg": "luna.editor"
+    },
+    "window.titleBarStyle": "custom"
+}
