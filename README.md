@@ -6,12 +6,12 @@
     enthusiasm. 💻🚀🇧🇩
 </h3>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1E90FF&random=false&width=435&lines=%40shu-vro+%3D%3D+creative;%40shu-vro+%3D%3D+problem+solver;%40shu-vro+%3D%3D+hungry+learner;%40shu-vro+%3D%3D+never+gives+up;%40shu-vro+%3D%3D+thinks+logically;%40shu-vro+%3D%3D+loves+to+code)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1E90FF&random=false&width=435&lines=%40shu-vro+%3D%3D+creative;%40shu-vro+%3D%3D+problem+solver;%40shu-vro+%3D%3D+hungry+learner;%40shu-vro+%3D%3D+never+gives+up;%40shu-vro+%3D%3D+thinks+logically;%40shu-vro+%3D%3D+loves+to+code" alt="Typing SVG" />
 
-<p align="left">
+<p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy"
         ><img
-            src="https://github-profile-trophy.vercel.app/?username=shu-vro"
+            src="https://github-profile-trophy.vercel.app/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15"
             alt="shu-vro"
     /></a>
 </p>
