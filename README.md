@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm @shu-vro</h1>
 <h3 align="center">
     A passionate aspiring full-stack developer from Bangladesh is on a
-    determined journey to master both front-end and back-end development,
+    determined journey to master full-stack development,
     contributing to the global tech community with their dedication and
     enthusiasm. 💻🚀🇧🇩
 </h3>
