@@ -16,8 +16,7 @@
     /></a>
 </p>
 
--   🔭 I’m currently working on [open
-    hearts](https://github.com/shu-vro/open-hearts-next) 
+-   🔭 I’m currently working on [RODE Solver - an ode solver app](https://github.com/shu-vro/RODE-Solver)
 - 🌱 I’m currently learning **Firebase** 
 - 👨‍💻 All of my projects are available at (excluding private)
     [https://github.com/shu-vro?tab=repositories](https://github.com/shu-vro?tab=repositories)
