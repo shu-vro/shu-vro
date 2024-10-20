@@ -6,7 +6,9 @@
     enthusiasm. 💻🚀🇧🇩
 </h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1E90FF&random=false&width=435&lines=%40shu-vro+%3D%3D+creative;%40shu-vro+%3D%3D+problem+solver;%40shu-vro+%3D%3D+hungry+learner;%40shu-vro+%3D%3D+never+gives+up;%40shu-vro+%3D%3D+thinks+logically;%40shu-vro+%3D%3D+loves+to+code" alt="Typing SVG" />
+<!-- <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=1E90FF&random=false&width=435&lines=%40shu-vro+%3D%3D+creative;%40shu-vro+%3D%3D+problem+solver;%40shu-vro+%3D%3D+hungry+learner;%40shu-vro+%3D%3D+never+gives+up;%40shu-vro+%3D%3D+thinks+logically;%40shu-vro+%3D%3D+loves+to+code" alt="Typing SVG" /> -->
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=1E90FF&center=true&vCenter=true&random=true&width=435&lines=Nextjs+%2B+MERN+stack+Developer;Self+Taught+Learner;Determined+to+Learn+New+Things;3%2B+YEARS+of+Coding+Experience)](https://github.com/shu-vro)
 
 <p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy"
