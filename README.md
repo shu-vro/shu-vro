@@ -54,8 +54,15 @@
 [![Shirshen's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=default&hide_border=true&border_radius=12#gh-light-mode-only)](https://github.com/shu-vro/github-readme-stats#gh-light-mode-only)
 
 
-![Github Streak](https://github-readme-streak-stats.herokuapp.com?user=shu-vro&theme=burnt-neon&hide_border=true&border_radius=12&card_width=672)
+<!-- ![Github Streak](https://github-readme-streak-stats.herokuapp.com?user=shu-vro&theme=burnt-neon&hide_border=true&border_radius=12&card_width=672) -->
 
+<p align="center">
+    <a href="https://leetcode.com/shirshen"
+        ><img
+            src="https://streak-stats.demolab.com?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12"
+            alt="shu-vro"
+    /></a>
+</p>
 
 ### Leetcode Stats
 <p align="center">
