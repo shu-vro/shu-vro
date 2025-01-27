@@ -18,7 +18,7 @@
 -   🌱 I’m currently learning **Docker**
 -   👨‍💻 All of my projects are available at (excluding private)
     [here](https://github.com/shu-vro?tab=repositories)
--   💬 Ask me about **NexJs, Python, Typescript, C++, CSS**
+-   💬 Ask me about **NextJs, Python, Typescript, C++, CSS**
 -   📫 How to reach me
     **official.shirshen@gmail.com**
 
