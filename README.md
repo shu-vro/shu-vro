@@ -1,3 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <path fill="#0099ff" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,48C384,32,480,32,576,80C672,128,768,224,864,250.7C960,277,1056,235,1152,234.7C1248,235,1344,277,1392,298.7L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+</svg>
+
 <h1 align="center">Hi 👋, I'm @shu-vro</h1>
 <h3 align="center">
     A passionate aspiring full-stack developer from Bangladesh is on a
@@ -56,19 +60,23 @@
 
 # 📊 Github Stats
 
-![alt](https://github-readme-stats.vercel.app/api/top-langs/?username=shu-vro&layout=pie&theme=transparent&hide_border=true) [![Shirshen's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=ambient_gradient&hide_border=true&border_radius=12#gh-dark-mode-only)](https://github.com/shu-vro/github-readme-stats#gh-dark-mode-only)
+![alt](https://github-readme-stats.vercel.app/api/top-langs/?username=shu-vro&layout=pie&theme=transparent&hide_border=true)
+
+[![Shirshen's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=ambient_gradient&hide_border=true&border_radius=12#gh-dark-mode-only)](https://github.com/shu-vro/github-readme-stats#gh-dark-mode-only)
 [![Shirshen's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=default&hide_border=true&border_radius=12#gh-light-mode-only)](https://github.com/shu-vro/github-readme-stats#gh-light-mode-only)
+
+![Streak Stats](https://github-readme-streak-stats-seven-azure.vercel.app/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12)
 
 <!-- ![Github Streak](https://github-readme-streak-stats.herokuapp.com?user=shu-vro&theme=burnt-neon&hide_border=true&border_radius=12&card_width=672) -->
 
-<p align="center">
+<!-- <p align="center">
     <img
-            src="https://github-readme-streak-stats-seven-azure.vercel.app/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12"
-            alt="shu-vro"
+        src="https://github-readme-streak-stats-seven-azure.vercel.app/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12"
+        alt="shu-vro"
     />
-</p>
+</p> -->
 
-### Leetcode Stats
+<!-- ### Leetcode Stats
 
 <p align="center">
     <a href="https://leetcode.com/shirshen"
@@ -76,7 +84,7 @@
             src="https://leetcard.jacoblin.cool/shirshen?theme=unicorn&font=Montserrat&radius=12&ext=heatmap"
             alt="shu-vro"
     /></a>
-</p>
+</p> -->
 
 ### ✍️ Random Dev Quote
 
