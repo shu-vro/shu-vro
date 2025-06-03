@@ -46,8 +46,13 @@
 
 # Github Badges
 
-![GitHub Foundations Certification
-](assets/github-foundations.png)
+<p align="center">
+    <a href="https://github.com/ryo-ma/github-profile-trophy"
+        ><img
+            src="assets/github-foundations.png"
+            alt="GitHub Foundations Certification"
+    /></a>
+</p>
 
 # 💻 Tech Stack:
 
@@ -72,12 +77,26 @@
 
 # 📊 Github Stats
 
-![alt](https://github-readme-stats.vercel.app/api/top-langs/?username=shu-vro&layout=pie&theme=transparent&hide_border=true)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shu-vro&layout=pie&theme=transparent&hide_border=true" />
+</div>
 
-[![Shirshen's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=ambient_gradient&hide_border=true&border_radius=12#gh-dark-mode-only)](https://github.com/shu-vro/github-readme-stats#gh-dark-mode-only)
-[![Shirshen's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=default&hide_border=true&border_radius=12#gh-light-mode-only)](https://github.com/shu-vro/github-readme-stats#gh-light-mode-only)
+<div align="center">
+  <a href="https://github.com/shu-vro/github-readme-stats#gh-dark-mode-only">
+    <img src="https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=ambient_gradient&hide_border=true&border_radius=12#gh-dark-mode-only" />
+  </a>
+</div>
 
-![Streak Stats](https://github-readme-streak-stats-seven-azure.vercel.app/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12)
+<div align="center">
+  <a href="https://github.com/shu-vro/github-readme-stats#gh-light-mode-only">
+    <img src="https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=default&hide_border=true&border_radius=12#gh-light-mode-only" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats-seven-azure.vercel.app/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12" />
+</div>
+
 
 <!-- ![Github Streak](https://github-readme-streak-stats.herokuapp.com?user=shu-vro&theme=burnt-neon&hide_border=true&border_radius=12&card_width=672) -->
 
