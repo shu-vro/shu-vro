@@ -14,8 +14,8 @@
 
 # 💫 About Me
 
--   🔭 I’m currently working on [EduSolve](https://github.com/shu-vro/edusolve)
--   🌱 I’m currently learning **Docker**
+-   🔭 I’m currently working on [uptube](https://github.com/shu-vro/uptube)
+-   🌱 I’m currently learning **React Native**
 -   👨‍💻 All of my projects are available at (excluding private)
     [here](https://github.com/shu-vro?tab=repositories)
 -   💬 Ask me about **NextJs, Python, Typescript, C++, CSS**
