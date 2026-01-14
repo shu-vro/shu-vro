@@ -78,18 +78,18 @@
 # 📊 Github Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shu-vro&layout=pie&theme=transparent&hide_border=true" />
+  <img src="https://github-readme-stats-shirshen-edition.vercel.app/api/top-langs/?username=shu-vro&layout=pie&theme=transparent&hide_border=true" />
 </div>
 
 <div align="center">
   <a href="https://github.com/shu-vro/github-readme-stats#gh-dark-mode-only">
-    <img src="https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=ambient_gradient&hide_border=true&border_radius=12#gh-dark-mode-only" />
+    <img src="https://github-readme-stats-shirshen-edition.vercel.app/api?username=shu-vro&show_icons=true&theme=ambient_gradient&hide_border=true&border_radius=12#gh-dark-mode-only" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://github.com/shu-vro/github-readme-stats#gh-light-mode-only">
-    <img src="https://github-readme-stats.vercel.app/api?username=shu-vro&show_icons=true&theme=default&hide_border=true&border_radius=12#gh-light-mode-only" />
+    <img src="https://github-readme-stats-shirshen-edition.vercel.app/api?username=shu-vro&show_icons=true&theme=default&hide_border=true&border_radius=12#gh-light-mode-only" />
   </a>
 </div>
 
