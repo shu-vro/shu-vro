@@ -1,0 +1,74 @@
+name: Generate Trophy Snapshot
+
+on:
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    snapshot:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                shell: bash
+        env:
+            PORT: 8080
+            GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+            AUTHORIZED_USER_ONLY: ${{ secrets.AUTHORIZED_USER_ONLY }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Deno
+              uses: denoland/setup-deno@v1
+              with:
+                  deno-version: v1.x
+
+            - name: Create .env for server
+              run: |
+                  cat > .env <<'EOF'
+                  PORT=${PORT}
+                  GITHUB_TOKEN1=${GITHUB_TOKEN1}
+                  AUTHORIZED_USER_ONLY=${AUTHORIZED_USER_ONLY}
+                  EOF
+
+            - name: Start trophy server
+              run: |
+                  set -a
+                  source .env
+                  set +a
+                  deno task start > server.log 2>&1 &
+                  echo $! > server.pid
+
+            - name: Fetch trophy SVG
+              run: |
+                  set -a
+                  source .env
+                  set +a
+                  mkdir -p output
+                  curl --retry 20 --retry-delay 2 --fail \
+                    "http://localhost:${PORT}/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15" \
+                    -o output/github-profile-trophy.svg
+
+            - name: Stop server
+              if: always()
+              run: |
+                  if [ -f server.pid ]; then
+                    kill $(cat server.pid) || true
+                  fi
+
+            - name: Upload trophy snapshot
+              uses: actions/upload-artifact@v4
+              with:
+                  name: github-profile-trophy
+                  path: output/github-profile-trophy.svg
+
+            - name: Deploy to Output Branch
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./output
+                  publish_branch: output
+                  keep_files: true
+                  commit_message: "Update trophy snapshot [skip ci]"
