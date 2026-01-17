@@ -19,7 +19,7 @@ jobs:
                 shell: bash
         env:
             PORT: 9300
-            TOKEN: ${{ secrets.TOKEN }}
+            TOKEN: ${{ secrets.TOKEN1 }}
         steps:
             - name: Checkout
               uses: actions/checkout@v4
