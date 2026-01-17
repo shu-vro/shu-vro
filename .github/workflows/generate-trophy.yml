@@ -2,6 +2,8 @@ name: Generate Trophy Snapshot
 
 on:
     workflow_dispatch:
+    schedule:
+        - cron: "0 0 * * *"
 
 permissions:
     contents: write
@@ -27,6 +29,7 @@ jobs:
 
             - name: Create .env for server
               run: |
+                  cd github-profile-trophy
                   cat > .env <<'EOF'
                   PORT=${PORT}
                   GITHUB_TOKEN1=${GITHUB_TOKEN1}
@@ -35,6 +38,7 @@ jobs:
 
             - name: Start trophy server
               run: |
+                  cd github-profile-trophy
                   set -a
                   source .env
                   set +a
