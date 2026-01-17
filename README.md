@@ -82,19 +82,19 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/shu-vro/github-readme-stats#gh-dark-mode-only">
+  <a href="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-readme-stats-dark.svg#gh-dark-mode-only">
     <img src="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-readme-stats-dark.svg#gh-dark-mode-only" />
   </a>
 </div>
 
 <div align="center">
-  <a href="https://github.com/shu-vro/github-readme-stats#gh-light-mode-only">
+  <a href="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-readme-stats-light.svg#gh-light-mode-only">
     <img src="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-readme-stats-light.svg#gh-light-mode-only" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats-seven-azure.vercel.app/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12" />
+  <img src="https://streak-stats.demolab.com/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12" />
 </div>
 
 <!-- ![Github Streak](https://github-readme-streak-stats.herokuapp.com?user=shu-vro&theme=burnt-neon&hide_border=true&border_radius=12&card_width=672) -->

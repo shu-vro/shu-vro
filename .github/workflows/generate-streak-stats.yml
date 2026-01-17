@@ -1,0 +1,86 @@
+name: Generate Streak Stats Snapshot
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "0 2 * * *"
+    push:
+        branches:
+            - main
+
+permissions:
+    contents: write
+
+jobs:
+    snapshot:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                shell: bash
+        env:
+            PORT: 9300
+            TOKEN: ${{ secrets.TOKEN }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup PHP
+              uses: shivammathur/setup-php@v2
+              with:
+                  php-version: "8.2"
+                  tools: composer
+
+            - name: Install dependencies
+              working-directory: github-readme-streak-stats
+              run: composer install --no-dev --no-interaction --no-progress --prefer-dist
+
+            - name: Create .env
+              working-directory: github-readme-streak-stats
+              run: |
+                  cat > .env <<EOF
+                  TOKEN=${TOKEN}
+                  EOF
+
+            - name: Start streak server
+              working-directory: github-readme-streak-stats
+              run: |
+                  PORT=${PORT} php -S 0.0.0.0:${PORT} -t src src/index.php > ../streak-server.log 2>&1 &
+                  echo $! > ../streak-server.pid
+
+            - name: Wait for server
+              run: |
+                  for i in {1..40}; do
+                    if curl -sSf "http://localhost:${PORT}/?user=shu-vro" > /dev/null; then
+                      exit 0
+                    fi
+                    sleep 1
+                  done
+                  echo "Server did not become ready" >&2
+                  exit 1
+
+            - name: Fetch streak SVG
+              run: |
+                  mkdir -p output
+                  curl --retry 10 --retry-delay 2 --fail \
+                    "http://localhost:${PORT}/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12" \
+                    -o output/github-readme-streak-stats.svg
+
+            - name: Show server log on failure
+              if: failure()
+              run: cat streak-server.log || true
+
+            - name: Stop server
+              if: always()
+              run: |
+                  if [ -f streak-server.pid ]; then
+                    kill "$(cat streak-server.pid)" || true
+                  fi
+
+            - name: Deploy to Output Branch
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./output
+                  publish_branch: output
+                  keep_files: true
+                  commit_message: "Update streak stats snapshot [skip ci]"
