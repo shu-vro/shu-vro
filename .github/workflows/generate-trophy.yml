@@ -14,7 +14,7 @@ jobs:
                 shell: bash
         env:
             PORT: 8080
-            GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN1: ${{ secrets.TOKEN1 }}
             AUTHORIZED_USER_ONLY: ${{ secrets.AUTHORIZED_USER_ONLY }}
         steps:
             - name: Checkout
@@ -41,6 +41,15 @@ jobs:
                   deno task start > server.log 2>&1 &
                   echo $! > server.pid
 
+            - name: Wait for server to be ready
+              run: |
+                  for i in {1..30}; do
+                    if curl -s http://localhost:${PORT} > /dev/null; then
+                      break
+                    fi
+                    sleep 1
+                  done
+
             - name: Fetch trophy SVG
               run: |
                   set -a
@@ -57,12 +66,6 @@ jobs:
                   if [ -f server.pid ]; then
                     kill $(cat server.pid) || true
                   fi
-
-            - name: Upload trophy snapshot
-              uses: actions/upload-artifact@v4
-              with:
-                  name: github-profile-trophy
-                  path: output/github-profile-trophy.svg
 
             - name: Deploy to Output Branch
               uses: peaceiris/actions-gh-pages@v3
