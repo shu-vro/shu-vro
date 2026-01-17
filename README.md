@@ -39,7 +39,7 @@
 <p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy"
         ><img
-            src="https://github-profile-trophy.vercel.app/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15"
+            src="https://github-profile-trophy-shirshen-edition.vercel.app/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15"
             alt="shu-vro"
     /></a>
 </p>
