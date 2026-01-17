@@ -56,6 +56,7 @@ jobs:
 
             - name: Fetch trophy SVG
               run: |
+                  cd github-profile-trophy
                   set -a
                   source .env
                   set +a
