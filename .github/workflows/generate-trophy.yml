@@ -33,10 +33,10 @@ jobs:
             - name: Create .env for server
               run: |
                   cd github-profile-trophy
-                  cat > .env <<'EOF'
+                  cat > .env <<EOF
                   PORT=${PORT}
                   GITHUB_TOKEN1=${GITHUB_TOKEN1}
-                  AUTHORIZED_USER_ONLY=shu-vro
+                  AUTHORIZED_USER_ONLY=${AUTHORIZED_USER_ONLY}
                   EOF
 
             - name: Start trophy server
