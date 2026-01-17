@@ -36,7 +36,7 @@ jobs:
                   cat > .env <<'EOF'
                   PORT=${PORT}
                   GITHUB_TOKEN1=${GITHUB_TOKEN1}
-                  AUTHORIZED_USER_ONLY=${AUTHORIZED_USER_ONLY}
+                  AUTHORIZED_USER_ONLY=shu-vro
                   EOF
 
             - name: Start trophy server
