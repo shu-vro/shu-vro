@@ -33,7 +33,12 @@ jobs:
 
             - name: Install dependencies
               working-directory: github-readme-streak-stats
-              run: composer install --no-dev --no-interaction --no-progress --prefer-dist
+              env:
+                  COMPOSER_ALLOW_SUPERUSER: 1
+              run: |
+                  composer install --no-dev --no-interaction --no-progress --prefer-dist
+                  ls -la vendor || true
+                  test -f vendor/autoload.php
 
             - name: Create .env
               working-directory: github-readme-streak-stats
