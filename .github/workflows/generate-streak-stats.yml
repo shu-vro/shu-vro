@@ -29,6 +29,7 @@ jobs:
               with:
                   php-version: "8.2"
                   tools: composer
+                  extensions: intl
 
             - name: Install dependencies
               working-directory: github-readme-streak-stats
