@@ -37,9 +37,9 @@
 # 🏆 GitHub Trophies
 
 <p align="center">
-    <a href="https://github.com/ryo-ma/github-profile-trophy"
+    <a href="https://raw.githubusercontent.com/shu-vro/shu-vro/output/github-profile-trophy.svg"
         ><img
-            src="https://github-profile-trophy-shirshen-edition.vercel.app/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15"
+            src="https://raw.githubusercontent.com/shu-vro/shu-vro/output/github-profile-trophy.svg"
             alt="shu-vro"
     /></a>
 </p>
@@ -96,7 +96,6 @@
 <div align="center">
   <img src="https://github-readme-streak-stats-seven-azure.vercel.app/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12" />
 </div>
-
 
 <!-- ![Github Streak](https://github-readme-streak-stats.herokuapp.com?user=shu-vro&theme=burnt-neon&hide_border=true&border_radius=12&card_width=672) -->
 

@@ -1,0 +1,85 @@
+name: Generate Readme Stats Snapshot
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: "0 2 * * *"
+    push:
+        branches:
+            - main
+
+permissions:
+    contents: write
+
+jobs:
+    snapshot:
+        runs-on: ubuntu-latest
+        defaults:
+            run:
+                shell: bash
+        env:
+            PORT: 9000
+            PAT_1: ${{ secrets.TOKEN1 }}
+            WHITELIST: ${{ secrets.AUTHORIZED_USER_ONLY }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Install deps
+              working-directory: github-readme-stats
+              run: npm ci
+
+            - name: Start stats server
+              working-directory: github-readme-stats
+              run: |
+                  PORT=${PORT} WHITELIST=${WHITELIST} PAT_1=${PAT_1} node express.js > ../grs-server.log 2>&1 &
+                  echo $! > ../grs-server.pid
+
+            - name: Wait for server
+              run: |
+                  for i in {1..40}; do
+                    if curl -sSf "http://localhost:${PORT}/" > /dev/null; then
+                      exit 0
+                    fi
+                    sleep 1
+                  done
+                  echo "Server did not become ready" >&2
+                  exit 1
+
+            - name: Fetch stats SVGs
+              run: |
+                  mkdir -p output
+                  curl --retry 10 --retry-delay 2 --fail \
+                    "http://localhost:${PORT}/api/top-langs/?username=shu-vro&layout=pie&theme=transparent&hide_border=true" \
+                    -o output/github-readme-stats-top-langs.svg
+                  curl --retry 10 --retry-delay 2 --fail \
+                    "http://localhost:${PORT}/api?username=shu-vro&show_icons=true&theme=ambient_gradient&hide_border=true&border_radius=12" \
+                    -o output/github-readme-stats-dark.svg
+                  curl --retry 10 --retry-delay 2 --fail \
+                    "http://localhost:${PORT}/api?username=shu-vro&show_icons=true&theme=default&hide_border=true&border_radius=12" \
+                    -o output/github-readme-stats-light.svg
+
+            - name: Show server log on failure
+              if: failure()
+              run: cat grs-server.log || true
+
+            - name: Stop server
+              if: always()
+              run: |
+                  if [ -f grs-server.pid ]; then
+                    kill "$(cat grs-server.pid)" || true
+                  fi
+
+            - name: Deploy to Output Branch
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./output
+                  publish_branch: output
+                  keep_files: true
+                  commit_message: "Update readme stats snapshots [skip ci]"
