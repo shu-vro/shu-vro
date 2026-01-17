@@ -4,6 +4,9 @@ on:
     workflow_dispatch:
     schedule:
         - cron: "0 0 * * *"
+    push:
+        branches:
+            - main
 
 permissions:
     contents: write
@@ -62,7 +65,7 @@ jobs:
                   set +a
                   mkdir -p output
                   curl --retry 20 --retry-delay 2 --fail \
-                    "http://localhost:${PORT}/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15" \
+                    "curl https://github-profile-trophy-shirshen-edition.vercel.app/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15" \
                     -o output/github-profile-trophy.svg
 
             - name: Stop server
