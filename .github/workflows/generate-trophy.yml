@@ -61,8 +61,12 @@ jobs:
               run: |
                   mkdir -p output
                   curl --retry 20 --retry-delay 2 --fail \
-                    "https://github-profile-trophy-shirshen-edition.vercel.app/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15" \
+                    "http://localhost:${PORT}/?username=shu-vro&theme=discord&column=3&no-bg=true&margin-w=15&margin-h=15" \
                     -o output/github-profile-trophy.svg
+
+            - name: Check server log
+              if: failure()
+              run: cat github-profile-trophy/server.log
 
             - name: Stop server
               if: always()
