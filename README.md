@@ -118,7 +118,17 @@
 
 ### ✍️ Random Dev Quote
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
+<div align="center">
+  <a href="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark#gh-dark-mode-only">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark#gh-dark-mode-only" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light#gh-light-mode-only">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light#gh-light-mode-only" />
+  </a>
+</div>
 
 ---
 
