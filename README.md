@@ -14,8 +14,8 @@
 
 # 💫 About Me
 
--   🔭 I’m currently working on [uptube](https://github.com/shu-vro/uptube)
--   🌱 I’m currently learning **React Native**
+-   🔭 My recent work's on [uptube](https://github.com/shu-vro/uptube) (private repo 😂)
+-   🌱 I’m currently learning about **llms and transformer architecture**
 -   👨‍💻 All of my projects are available at (excluding private)
     [here](https://github.com/shu-vro?tab=repositories)
 -   💬 Ask me about **NextJs, Python, Typescript, C++, CSS**
