@@ -2,8 +2,8 @@ name: Generate Readme Stats Snapshot
 
 on:
   workflow_dispatch:
-  # schedule:
-  #     - cron: "0 2 * * *"
+  schedule:
+    - cron: "0 2 * * *"
 
 permissions:
   contents: write
@@ -27,26 +27,15 @@ jobs:
         with:
           node-version: 24
 
-      - name: Check app directory
-        run: |
-          ls -la
-          test -d GitHub-Insights
-
-      - name: Install dependencies
-        working-directory: GitHub-Insights
+      - name: Install deps
+        working-directory: github-readme-stats
         run: npm ci
 
-      - name: Build app
-        working-directory: GitHub-Insights
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
-        run: npm run build
-
-      - name: Start server
-        working-directory: GitHub-Insights
+      - name: Start stats server
+        working-directory: github-readme-stats
         run: |
-          PORT=${PORT} npm start > ../insights-server.log 2>&1 &
-          echo $! > ../insights-server.pid
+          PORT=${PORT} WHITELIST=${WHITELIST} PAT_1=${PAT_1} node express.js > ../grs-server.log 2>&1 &
+          echo $! > ../grs-server.pid
 
       - name: Wait for server
         run: |

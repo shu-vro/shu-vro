@@ -26,18 +26,23 @@ jobs:
         with:
           node-version: 24
 
+      - name: Check app directory
+        run: |
+          ls -la
+          test -d GitHub-Insights
+
       - name: Install dependencies
-        working-directory: Github-Insights
+        working-directory: GitHub-Insights
         run: npm ci
 
       - name: Build app
-        working-directory: Github-Insights
+        working-directory: GitHub-Insights
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
         run: npm run build
 
       - name: Start server
-        working-directory: Github-Insights
+        working-directory: GitHub-Insights
         run: |
           PORT=${PORT} npm start > ../insights-server.log 2>&1 &
           echo $! > ../insights-server.pid
