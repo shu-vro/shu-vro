@@ -1,0 +1,84 @@
+name: Generate GitHub Insights Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    env:
+      PORT: 3000
+      GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        working-directory: Github-Insights
+        run: npm ci
+
+      - name: Build app
+        working-directory: Github-Insights
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
+        run: npm run build
+
+      - name: Start server
+        working-directory: Github-Insights
+        run: |
+          PORT=${PORT} npm start > ../insights-server.log 2>&1 &
+          echo $! > ../insights-server.pid
+
+      - name: Wait for server
+        run: |
+          for i in {1..40}; do
+            if curl -sSf "http://localhost:${PORT}/api/insight?username=shu-vro" > /dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "Server did not become ready" >&2
+          exit 1
+
+      - name: Fetch insights SVGs
+        run: |
+          mkdir -p output
+          curl --retry 10 --retry-delay 2 --fail \
+            "http://localhost:${PORT}/api/insight?username=shu-vro&theme=github_dark" \
+            -o output/github-insights-dark.svg
+          curl --retry 10 --retry-delay 2 --fail \
+            "http://localhost:${PORT}/api/insight?username=shu-vro&theme=github_light" \
+            -o output/github-insights-light.svg
+
+      - name: Show server log on failure
+        if: failure()
+        run: cat insights-server.log || true
+
+      - name: Stop server
+        if: always()
+        run: |
+          if [ -f insights-server.pid ]; then
+            kill "$(cat insights-server.pid)" || true
+          fi
+
+      - name: Deploy to Output Branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: output
+          keep_files: true
+          commit_message: "Update GitHub insights snapshot [skip ci]"
