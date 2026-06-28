@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="850" height="849" viewBox="0 0 850 849">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="850" height="589" viewBox="0 0 850 589">
   
     <defs>
       <style type="text/css">
@@ -78,25 +78,16 @@
   </defs>
   
   <!-- Main Background with gradient border -->
-  <rect x="0" y="0" width="850" height="849" rx="16" fill="#f6f8fa"/>
-  <rect x="1" y="1" width="848" height="847" rx="15" fill="none" stroke="url(#borderGradient)" stroke-width="2"/>
+  <rect x="0" y="0" width="850" height="589" rx="16" fill="#f6f8fa"/>
+  <rect x="1" y="1" width="848" height="587" rx="15" fill="none" stroke="url(#borderGradient)" stroke-width="2"/>
   
   
     <!-- Header Section -->
     <g transform="translate(0, 36)">
       
-      <g transform="translate(425, 0)">
-        <text x="0" y="0" text-anchor="middle" font-size="28" font-weight="700" fill="#0550ae" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.5">
-          shu-vro
-        </text>
-        <text x="0" y="32" text-anchor="middle" font-size="15" font-weight="400" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">
-          Shirshen Shuvro
-        </text>
-      </g>
-  
       
       <!-- Profile Stats - Left aligned -->
-      <g transform="translate(48, 82)">
+      <g transform="translate(48, 0)">
         
         <g transform="translate(0, 0)">
           
@@ -105,7 +96,7 @@
     </g>
   
           <text x="28" y="13" font-size="14" fill="#24292f" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">
-            1,219 contributions in the last 12 months
+            1,222 contributions in the last 12 months
           </text>
         </g>
         
@@ -146,7 +137,7 @@
   
       
       <!-- Contribution Area Graph -->
-      <g transform="translate(490, 82)">
+      <g transform="translate(490, 0)">
         <text x="140" y="-8" text-anchor="middle" font-size="12" font-weight="600" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">
           Monthly Contributions (Last 12 Months)
         </text>
@@ -165,8 +156,8 @@
           </linearGradient>
         </defs>
         
-        <path d="M 0 90 L 0 37.92993630573249 L 25.454545454545457 15 L 50.909090909090914 23.59872611464968 L 76.36363636363636 55.12738853503185 L 101.81818181818183 74.71337579617834 L 127.27272727272727 40.796178343949045 L 152.72727272727272 24.554140127388536 L 178.1818181818182 55.12738853503185 L 203.63636363636365 40.31847133757962 L 229.0909090909091 50.35031847133758 L 254.54545454545453 32.67515923566879 L 280 60.859872611464965 L 280 90 Z" fill="url(#headerAreaGradient)" />
-        <path d="M 0 37.92993630573249 L 25.454545454545457 15 L 50.909090909090914 23.59872611464968 L 76.36363636363636 55.12738853503185 L 101.81818181818183 74.71337579617834 L 127.27272727272727 40.796178343949045 L 152.72727272727272 24.554140127388536 L 178.1818181818182 55.12738853503185 L 203.63636363636365 40.31847133757962 L 229.0909090909091 50.35031847133758 L 254.54545454545453 32.67515923566879 L 280 60.859872611464965" fill="none" stroke="#0550ae" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M 0 90 L 0 37.92993630573249 L 25.454545454545457 15 L 50.909090909090914 23.59872611464968 L 76.36363636363636 55.12738853503185 L 101.81818181818183 74.71337579617834 L 127.27272727272727 40.796178343949045 L 152.72727272727272 24.554140127388536 L 178.1818181818182 55.12738853503185 L 203.63636363636365 40.31847133757962 L 229.0909090909091 50.35031847133758 L 254.54545454545453 32.67515923566879 L 280 59.42675159235669 L 280 90 Z" fill="url(#headerAreaGradient)" />
+        <path d="M 0 37.92993630573249 L 25.454545454545457 15 L 50.909090909090914 23.59872611464968 L 76.36363636363636 55.12738853503185 L 101.81818181818183 74.71337579617834 L 127.27272727272727 40.796178343949045 L 152.72727272727272 24.554140127388536 L 178.1818181818182 55.12738853503185 L 203.63636363636365 40.31847133757962 L 229.0909090909091 50.35031847133758 L 254.54545454545453 32.67515923566879 L 280 59.42675159235669" fill="none" stroke="#0550ae" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
         
         <!-- X-axis labels -->
         <g transform="translate(0, 104)">
@@ -176,7 +167,7 @@
   
     </g>
   
-  <g transform="translate(40, 259)">
+  <g transform="translate(40, 177)">
       <rect x="0" y="0" width="377" height="200" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
       <g transform="translate(24, 28)">
     <g transform="translate(0, -1) scale(1.125)">
@@ -191,7 +182,7 @@
     <g transform="translate(0, 0) scale(1)">
       <path fill="#34d399" d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.86 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z" />
     </g>
-  <text x="26" y="12" font-size="13" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">Contributions (12mo)</text><text x="230" y="12" font-size="14" font-weight="600" fill="#24292f" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" text-anchor="end" letter-spacing="0.2">1,219</text></g><g transform="translate(0, 54)">
+  <text x="26" y="12" font-size="13" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">Contributions (12mo)</text><text x="230" y="12" font-size="14" font-weight="600" fill="#24292f" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" text-anchor="end" letter-spacing="0.2">1,222</text></g><g transform="translate(0, 54)">
     <g transform="translate(0, 0) scale(1)">
       <path fill="#a78bfa" d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z" />
     </g>
@@ -211,7 +202,7 @@
       </g>
       <text x="326" y="168" text-anchor="middle" font-size="12" font-weight="500" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">Rating</text>
     </g>
-  <g transform="translate(433, 259)">
+  <g transform="translate(433, 177)">
       <rect x="0" y="0" width="377" height="200" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
       <g transform="translate(24, 28)">
     <g transform="translate(0, -1) scale(1.125)">
@@ -227,7 +218,7 @@
     </g>
   
     <!-- Streak Section -->
-    <g transform="translate(40, 480)">
+    <g transform="translate(40, 398)">
       <!-- Total Contributions Card -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="246" height="140" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
@@ -241,7 +232,7 @@
         </g>
         
         <text x="123" y="70" text-anchor="middle" font-size="26" font-weight="700" fill="#0550ae" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">
-          3,204
+          3,207
         </text>
         <text x="123" y="94" text-anchor="middle" font-size="12" font-weight="600" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">
           Total Contributions
@@ -308,27 +299,5 @@
       </g>
     </g>
   
-  <g transform="translate(40, 643)">
-      <rect x="0" y="0" width="770" height="160" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-      <g transform="translate(24, 26)">
-    <g transform="translate(0, -1) scale(1.125)">
-      <path fill="#0550ae" d="M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.001 7.001 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.001 7.001 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z" />
-    </g>
-  <text x="28" y="13" font-size="15" font-weight="600" fill="#0550ae" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.3">Contribution Activity</text><text x="28" y="34" font-size="12" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">Daily contributions · May - Jun 2026</text></g>
-      <g transform="translate(36, 62)">
-        <text x="0" y="5" font-size="10" fill="#57606a" text-anchor="end" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">15</text>
-        <text x="0" y="42" font-size="10" fill="#57606a" text-anchor="end" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">8</text>
-        <text x="0" y="77" font-size="10" fill="#57606a" text-anchor="end" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">0</text>
-        <line x1="10" y1="0" x2="712" y2="0" stroke="#d0d7de" stroke-width="0.5" stroke-dasharray="4,2" opacity="0.4"/>
-        <line x1="10" y1="40" x2="712" y2="40" stroke="#d0d7de" stroke-width="0.5" stroke-dasharray="4,2" opacity="0.4"/>
-        <line x1="10" y1="80" x2="712" y2="80" stroke="#d0d7de" stroke-width="0.5"/>
-      </g>
-      <g transform="translate(52, 62)">
-        <defs><linearGradient id="graphGradient" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#0550ae;stop-opacity:0.3"/><stop offset="100%" style="stop-color:#0550ae;stop-opacity:0.02"/></linearGradient></defs>
-        <path d="M 0 80 L 23.333333333333332 70.66666666666667 L 46.666666666666664 80 L 70 80 L 93.33333333333333 66 L 116.66666666666666 61.33333333333333 L 140 80 L 163.33333333333334 80 L 186.66666666666666 70.66666666666667 L 210 75.33333333333333 L 233.33333333333331 70.66666666666667 L 256.66666666666663 56.66666666666667 L 280 61.33333333333333 L 303.33333333333337 80 L 326.6666666666667 75.33333333333333 L 350 66 L 373.3333333333333 80 L 396.66666666666663 70.66666666666667 L 420 66 L 443.3333333333333 75.33333333333333 L 466.66666666666663 70.66666666666667 L 489.99999999999994 80 L 513.3333333333333 80 L 536.6666666666667 80 L 560 80 L 583.3333333333334 80 L 606.6666666666667 42.666666666666664 L 630 80 L 653.3333333333334 10 L 676.6666666666666 80 L 700 56.66666666666667 L 700 80 L 0 80 Z" fill="url(#graphGradient)"/>
-        <path d="M 0 80 L 23.333333333333332 70.66666666666667 L 46.666666666666664 80 L 70 80 L 93.33333333333333 66 L 116.66666666666666 61.33333333333333 L 140 80 L 163.33333333333334 80 L 186.66666666666666 70.66666666666667 L 210 75.33333333333333 L 233.33333333333331 70.66666666666667 L 256.66666666666663 56.66666666666667 L 280 61.33333333333333 L 303.33333333333337 80 L 326.6666666666667 75.33333333333333 L 350 66 L 373.3333333333333 80 L 396.66666666666663 70.66666666666667 L 420 66 L 443.3333333333333 75.33333333333333 L 466.66666666666663 70.66666666666667 L 489.99999999999994 80 L 513.3333333333333 80 L 536.6666666666667 80 L 560 80 L 583.3333333333334 80 L 606.6666666666667 42.666666666666664 L 630 80 L 653.3333333333334 10 L 676.6666666666666 80 L 700 56.66666666666667" fill="none" stroke="#0550ae" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="0" cy="80" r="4" fill="#0550ae" stroke="#ffffff" stroke-width="2"/><circle cx="116.66666666666666" cy="61.33333333333333" r="4" fill="#0550ae" stroke="#ffffff" stroke-width="2"/><circle cx="233.33333333333331" cy="70.66666666666667" r="4" fill="#0550ae" stroke="#ffffff" stroke-width="2"/><circle cx="350" cy="66" r="4" fill="#0550ae" stroke="#ffffff" stroke-width="2"/><circle cx="466.66666666666663" cy="70.66666666666667" r="4" fill="#0550ae" stroke="#ffffff" stroke-width="2"/><circle cx="583.3333333333334" cy="80" r="4" fill="#0550ae" stroke="#ffffff" stroke-width="2"/><circle cx="700" cy="56.66666666666667" r="4" fill="#0550ae" stroke="#ffffff" stroke-width="2"/>
-      </g>
-      <g transform="translate(52, 152)"><text x="0" y="0" text-anchor="middle" font-size="10" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">29</text><text x="163.33333333333334" y="0" text-anchor="middle" font-size="10" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">5</text><text x="326.6666666666667" y="0" text-anchor="middle" font-size="10" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">12</text><text x="489.99999999999994" y="0" text-anchor="middle" font-size="10" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">19</text><text x="653.3333333333334" y="0" text-anchor="middle" font-size="10" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">26</text><text x="700" y="0" text-anchor="middle" font-size="10" fill="#57606a" font-family="'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif" letter-spacing="0.2">28</text></g>
-    </g>
+  
 </svg>
