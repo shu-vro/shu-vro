@@ -62,10 +62,10 @@ jobs:
         run: |
           mkdir -p output
           curl --retry 10 --retry-delay 2 --fail \
-            "http://localhost:${PORT}/api/insight?username=shu-vro&theme=github_dark&graph=false&languages=true&streak=true&stats=true&header=true&summary=true&profile=true" \
+            "http://localhost:${PORT}/api/insight?username=shu-vro&theme=github_light&graph=false&languages=true&streak=true&stats=true&header=true&summary=true&profile=false" \
             -o output/github-insights-dark.svg
           curl --retry 10 --retry-delay 2 --fail \
-            "http://localhost:${PORT}/api/insight?username=shu-vro&theme=github_light&graph=false&languages=true&streak=true&stats=true&header=true&summary=true&profile=true" \
+            "http://localhost:${PORT}/api/insight?username=shu-vro&theme=github_light&graph=false&languages=true&streak=true&stats=true&header=true&summary=true&profile=false" \
             -o output/github-insights-light.svg
 
       - name: Show server log on failure
