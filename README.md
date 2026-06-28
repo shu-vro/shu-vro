@@ -14,13 +14,13 @@
 
 # 💫 About Me
 
--   🔭 My recent work's on [uptube](https://github.com/shu-vro/uptube) (private repo 😂)
--   🌱 I’m currently learning about **llms and transformer architecture**
--   👨‍💻 All of my projects are available at (excluding private)
-    [here](https://github.com/shu-vro?tab=repositories)
--   💬 Ask me about **NextJs, Python, Typescript, C++, CSS**
--   📫 How to reach me
-    **official.shirshen@gmail.com**
+- 🔭 My recent work's on [uptube](https://github.com/shu-vro/uptube) (private repo 😂)
+- 🌱 I’m currently learning about **llms and transformer architecture**
+- 👨‍💻 All of my projects are available at (excluding private)
+  [here](https://github.com/shu-vro?tab=repositories)
+- 💬 Ask me about **NextJs, Python, Typescript, C++, CSS**
+- 📫 How to reach me
+  **official.shirshen@gmail.com**
 
 # 🌐 Connect with me
 
@@ -78,6 +78,18 @@
 # 📊 Github Stats
 
 <div align="center">
+  <a href="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-insights-dark.svg#gh-dark-mode-only">
+    <img src="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-insights-dark.svg#gh-dark-mode-only" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-insights-light.svg#gh-light-mode-only">
+    <img src="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-insights-light.svg#gh-light-mode-only" />
+  </a>
+</div>
+
+<!-- <div align="center">
   <img src="https://github.com/shu-vro/shu-vro/raw/refs/heads/output/github-readme-stats-top-langs.svg" />
 </div>
 
@@ -95,7 +107,7 @@
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=shu-vro&theme=neon-dark&background=FFFFFF00&border_radius=12" />
-</div>
+</div> -->
 
 <!-- ![Github Streak](https://github-readme-streak-stats.herokuapp.com?user=shu-vro&theme=burnt-neon&hide_border=true&border_radius=12&card_width=672) -->
 
