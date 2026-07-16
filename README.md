@@ -129,23 +129,6 @@
     /></a>
 </p> -->
 
-### ✍️ Random Dev Quote
-
-<div align="center">
-  <a href="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark#gh-dark-mode-only">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark#gh-dark-mode-only" />
-  </a>
-</div>
-
-<div align="center">
-  <a href="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light#gh-light-mode-only">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light#gh-light-mode-only" />
-  </a>
-</div>
-
----
-
-[![](https://visitcount.itsvg.in/api?id=shu-vro&icon=1&color=0)](https://visitcount.itsvg.in)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shu-vro/shu-vro/output/github-snake-dark.svg" />
