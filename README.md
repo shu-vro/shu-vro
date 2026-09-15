@@ -14,7 +14,7 @@
 
 # 💫 About Me
 
-- 🔭 My recent work's on [uptube](https://github.com/shu-vro/hyperagent) (private repo 😂)
+- 🔭 My recent work's on [uptube](https://github.com/shu-vro/hyperagents) (private repo 😂)
 - 🌱 I’m currently learning about **llms and transformer architecture**
 - 👨‍💻 All of my projects are available at (excluding private)
   [here](https://github.com/shu-vro?tab=repositories)
