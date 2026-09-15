@@ -34,6 +34,7 @@
 <a href="https://www.leetcode.com/shu-vro" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="shu-vro" height="30" width="40" /></a>
 </p>
 
+<!-- 
 # 🏆 GitHub Trophies
 
 <p align="center">
@@ -43,6 +44,8 @@
             alt="shu-vro"
     /></a>
 </p>
+
+-->
 
 # Github Badges
 
